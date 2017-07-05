@@ -109,7 +109,38 @@ main {
 
 .product.grid {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  }
+
+.produce {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: black 4px solid;
+  align-items: center;
 }
+
+.product-image {
+  height: 9rem;
+  width: 9rem;
+  overflow: hidden;
+  margin: 2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+  padding: 2rem 2rem;
+}
+
+
+
 
 .misc {
   display: flex;
