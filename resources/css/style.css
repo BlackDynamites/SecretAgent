@@ -111,6 +111,7 @@ main {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-top: 3rem;
   }
 
 .produce {
@@ -136,12 +137,51 @@ main {
   display: block;
 }
 
-  padding: 2rem 2rem;
+.product-bottom {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: white;
+  justify-content: center;
 }
 
-
-
+.product-bottom h2 {
+  padding: 0.5rem 0;
+}
 
 .misc {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
+}
+
+.misc-top {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.misc-container {
+  width: 35%;
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  height: 5rem;
+  color: white;
+  width: 960px;
+
 }
